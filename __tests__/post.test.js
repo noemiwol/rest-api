@@ -23,7 +23,6 @@ describe('POST / add photo ', () =>{
                 url: "https://via.placeholder.com/600/92e952",
                 thumbnailUrl: "https://via.placeholder.com/150/92e952"
             }));
-            
             console.log(response.body);
             });
     });

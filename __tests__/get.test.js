@@ -1,7 +1,6 @@
 const supertest = require('supertest');
 const host = 'https://jsonplaceholder.typicode.com';
 const request = supertest(host);
-
 describe('GET / all post', () =>{
     it('return code 200 and all post in log and time response', async () =>{
         var start = performance.now();
