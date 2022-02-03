@@ -21,11 +21,12 @@ Po zainstalowaniu VSC i node.js wykonujemy następujące kroki:
 5.	Następnie przechodzimy do instalacji Supertest wchodzimy na stronę https://www.npmjs.com/package/supertest i kopujemy do terminala npm install supertest --save-dev  zatwierdzamy enterem
 ![Alt Text](https://github.com/noemiwol/imagesGifs/blob/main/gif/redmeSupertestJest/1.gif)
 
-6.	Po zainstalowaniu musimy edytować plik package.json musimy dodać zależności i zapisujemy plik
+6.	Po zainstalowaniu musimy edytować plik package.json musimy dodać zależności 
 
   "scripts" : {
     "test": "jest"
   },
+i zapisujemy plik
 
 Plik package.json po edycji 
  
