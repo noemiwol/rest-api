@@ -22,6 +22,7 @@ Po zainstalowaniu VSC i node.js wykonujemy następujące kroki:
 ![Alt Text](https://github.com/noemiwol/imagesGifs/blob/main/gif/redmeSupertestJest/1.gif)
 
 6.	Po zainstalowaniu musimy edytować plik package.json musimy dodać zależności i zapisujemy plik
+
   "scripts" : {
     "test": "jest"
   },
