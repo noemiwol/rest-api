@@ -26,6 +26,7 @@ Po zainstalowaniu VSC i node.js wykonujemy następujące kroki:
   "scripts" : {
     "test": "jest"
   },
+  
 i zapisujemy plik
 
 Plik package.json po edycji 
