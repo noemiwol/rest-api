@@ -36,7 +36,7 @@ Plik package.json po edycji
  
 ![Screenshot](https://github.com/noemiwol/imagesGifs/blob/main/img/redmeSupertestJest/6.jpg)
 
-7.	Tworzymy folder w którym będziemy pisali testy nazwa musi być tests w nim będziemy tworzyć pliki js z testami. Lub będziemy zaciągać z GitHub folder z testami
+7.	Tworzymy folder w którym będziemy pisali testy nazwa musi być __tests__ w nim będziemy tworzyć pliki js z testami. Lub będziemy zaciągać z GitHub folder z testami
 8.	W terminalu wpisujemy komendę 
 ### npm test 
 ##### i zatwierdzamy enterem.
