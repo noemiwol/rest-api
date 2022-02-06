@@ -1,9 +1,8 @@
-const supertest = require('supertest');
-const host = 'https://jsonplaceholder.typicode.com';
-const request = supertest(host);
+const request = require('./request');
 
-describe('POST / add photo ', () =>{
+describe('POST / add photo ', () => {
     it('if successull add post return code 201', async () => {
+        
         const response = await request.post('/photos')
             .send({
                 albumId: 1,
@@ -23,6 +22,5 @@ describe('POST / add photo ', () =>{
                 url: "https://via.placeholder.com/600/92e952",
                 thumbnailUrl: "https://via.placeholder.com/150/92e952"
             }));
-            console.log(response.body);
-            });
+        });
     });
