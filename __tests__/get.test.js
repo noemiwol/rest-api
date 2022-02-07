@@ -1,10 +1,10 @@
 const request = require('./request');
 
 describe('GET / all post', () => {
-    it('return code 200 and all post in log and time response', async () => {
+    it('return code 200 and all post and time less 500', async () => {
 
         let start = performance.now();
-        const response = await request.get('/posts');
+        const response = await request.get('/posts/99');
         let end = performance.now();
 
         expect(end - start).toBeLessThan(500);
@@ -13,11 +13,12 @@ describe('GET / all post', () => {
 });
 
 describe('GET / all photos', () => {
-    it('return code 200 and all post in log', async () => {
+    it('return code 200 and all post', async () => {
 
         const response = await request.get('/photos');
 
         expect(response.statusCode).toEqual(200);
+        expect(response.body);
     });
 });
 
